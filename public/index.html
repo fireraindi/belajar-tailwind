@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>coba tailwind</title>
+    <link href="../assets/css/final.css" rel="stylesheet" />
+  </head>
+
+  <body
+    class="dark:bg-slate-800 dark:text-white"
+    background="../assets/img/background.jpg"
+  >
+    <div class="w-ful">
+      <header>
+        <nav
+          class="w-full h-16 bg-fuchsia-300 flex shadow-sm dark:bg-slate-500"
+        >
+          <h4 class="text-3xl pl-3 float-left pt-2.5"><a href="">Logo</a></h4>
+          <ul class="flex m-auto space-x-3 text-xl md:space-x-8">
+            <li class="group">
+              <a
+                class="inline-block group-hover:scale-125 group-hover:text-red-500 transition-all duration-300"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="group">
+              <a
+                class="inline-block group-hover:scale-125 group-hover:text-red-500 transition-all duration-300"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li class="group">
+              <a
+                class="inline-block group-hover:scale-125 group-hover:text-red-500 transition-all duration-300"
+                href="#"
+                >Contact</a
+              >
+            </li>
+            <li class="group">
+              <a
+                class="inline-block group-hover:scale-125 group-hover:text-red-500 transition-all duration-300"
+                href="#"
+                >Product</a
+              >
+            </li>
+          </ul>
+
+          <div class="flex items-center justify-center pr-6">
+            <!-- <span class="text-sm text-slate-800 dark:text-white mr-2">☀️</span> -->
+            <input id="toggle" class="hidden" type="checkbox" />
+            <label for="toggle">
+              <div
+                class="w-12 h-5 bg-slate-100 rounded-full flex items-center cursor-pointer"
+              >
+                <div
+                  class="h-4 w-4 rounded-full dark:translate-x-5 flex items-center transition duration-200"
+                >
+                  <span class="dark:hidden">☀️</span
+                  ><span class="hidden dark:block">🌙</span>
+                </div>
+              </div>
+            </label>
+            <span class="text-sm text-slate-800 dark:text-white ml-2"></span>
+          </div>
+        </nav>
+      </header>
+      <main
+        class="mx-auto pb-5 w-5/6 max-h-full px-4 bg-white order-2 dark:bg-slate-700"
+      >
+        <h2 class="text-4xl font-semibold">Belajar Tailwind CSS</h2>
+        <p class="italic ml-3 font-thin">Fire Raindi 23 January 2024</p>
+        <h1
+          class="font-serif text-6xl text-center font-bold bg-gradient-to-r w-full from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text md:text-9xl"
+        >
+          Erifsen
+        </h1>
+        <p class="mb-3">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus
+          eius illo numquam iusto. Atque culpa quae id vero, ad nobis iste
+          labore enim quasi odit earum minima. Architecto, pariatur quia?
+        </p>
+        <p class="mb-3 italic font-medium text-sm">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+          similique nobis sed tempora placeat dolores debitis modi laboriosam
+          quam mollitia!
+        </p>
+        <p class="mb-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          voluptates error distinctio impedit repellendus modi, nesciunt iusto
+          itaque, quam maxime eos hic eveniet dolor, laudantium vero non unde
+          libero reiciendis magnam tempora doloremque ad. Facere consequuntur in
+          animi eum omnis.
+        </p>
+        <div
+          class="mx-auto my-11 w-3/4 h-60 bg-cover bg-center overflow-y-scroll"
+          style="background-image: url(../assets/img/goku.jpg)"
+        >
+          <p class="bg-slate-300 mix-blend-multiply">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+            quibusdam quos cupiditate unde voluptatibus eos et nostrum officiis
+            saepe enim? Porro doloremque vitae praesentium modi eius hic minus,
+            eveniet at illum officiis, distinctio totam nostrum nemo debitis
+            nesciunt repudiandae saepe iusto velit nobis mollitia omnis, iste
+            corrupti. Ratione corrupti ex impedit dignissimos, voluptatem
+            tempore odit nulla maxime neque magni vitae quidem doloremque
+            deserunt quisquam minus eligendi doloribus suscipit eos sint? Eaque
+            ea eum sit id aperiam optio perspiciatis error eius voluptatibus
+            temporibus dolorem non maxime, minima saepe voluptatem nostrum
+            provident quam commodi blanditiis, fuga dolores dolor tempore,
+            inventore ducimus? Fugit.
+          </p>
+        </div>
+        <p class="mb-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ex
+          possimus. Veritatis animi fuga voluptates? Animi voluptatibus
+          voluptatum explicabo placeat expedita atque, eveniet eaque a, unde
+          nemo perferendis nesciunt sequi.
+        </p>
+        <p class="mb-3">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias
+          animi a iure! Accusamus, illum nesciunt.
+        </p>
+        <div
+          class="border-4 border-black w-4/5 h-56 bg-cover bg-center mx-auto rounded-md overflow-hidden shadow-lg shadow-black"
+          style="background-image: url(../assets/img/goku.jpg)"
+        >
+          <div class="h-full w-full"></div>
+        </div>
+        <button
+          class="mt-10 block mx-auto bg-sky-500 py-2 px-5 rounded-full text-slate-200 shadow-sm shadow-black hover:bg-sky-700 active:bg-slate-200 active:text-slate-900"
+        >
+          submit
+        </button>
+        <div
+          class="group hover:bg-slate-700 dark:hover:bg-slate-200 mt-7 h-48 w-3/4 border mx-auto shadow-lg"
+        >
+          <img
+            class="float-left h-full w-2/5"
+            src="../assets/img/goku.jpg"
+            alt=""
+          />
+          <h4
+            class="dark:group-hover:text-black group-hover:text-slate-100 text-xl font-semibold ml-44"
+          >
+            Son Goku
+          </h4>
+          <p
+            class="dark:group-hover:text-black ml-44 group-hover:text-slate-100 first-line:italic first-letter:text-xl first-letter:underline selection:text-black selection:bg-white"
+          >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Architecto, provident nisi. Magnam officiis autem quae a sequi non
+            fugit totam, soluta libero nesciunt fugiat dolorem.
+          </p>
+        </div>
+
+        <div class="mt-7 p-5 w-3/4 mx-auto border">
+          <form action="">
+            <label class="pt-1 pl-1 block" for="email"
+              ><span
+                class="after:content-['*'] after:ml-0.5 after:text-lg after:text-red-500"
+                >E-mail</span
+              >
+            </label>
+
+            <input
+              class="border px-3 shadow-md p-0.5 placeholder:italic rounded-xl w-full focus:border-none focus:ring-sky-500 focus:ring-1 focus:outline-none peer"
+              type="email"
+              name="email"
+              id="email"
+              placeholder=" you@example.com"
+            />
+            <p class="invisible peer-invalid:visible peer-invalid:text-red-600">
+              Invalid Email
+            </p>
+          </form>
+        </div>
+
+        <div class="w-11/12 h-[450px] border shadow-lg mx-auto">
+          <div
+            class="w-10 h-10 bg-teal-400 mt-2 ml-2 hover:translate-x-96 duration-700 transition-all"
+          ></div>
+          <div class="w-10 h-10 mt-2 ml-2 group">
+            <div
+              class="w-full h-full bg-red-300 group-hover:translate-x-96 duration-700 transition-all group-hover:rotate-180"
+            ></div>
+          </div>
+          <div
+            class="w-10 h-10 mt-2 ml-2 group bg-cover bg-center"
+            style="background-image: url(../assets/img/goku.jpg)"
+          >
+            <div
+              class="w-full h-full bg-red-300 duration-700 transition-all group-hover:rotate-180 group-hover:origin-top-right"
+            ></div>
+          </div>
+          <div class="w-10 h-10 bg-teal-500 mt-2 ml-2 animate-spin"></div>
+          <div
+            class="w-10 h-10 bg-teal-500 mt-2 ml-2 animate-pulse rounded-full"
+          ></div>
+          <div class="w-10 h-10 bg-teal-500 mt-2 ml-2 animate-ping"></div>
+          <div class="w-10 h-10 bg-teal-500 mt-2 ml-2 animate-bounce"></div>
+          <div class="w-10 h-10 bg-teal-500 mt-2 ml-2 animate-spin-slow"></div>
+          <div class="w-10 h-10 bg-teal-500 mt-2 ml-2 animate-wiggle">
+            <a href="#">aa</a>
+          </div>
+        </div>
+
+        <div class="container border mt-20">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nulla
+            accusantium, iusto quidem laborum facilis ex et repudiandae
+            deleniti! Facilis id quas at, recusandae repudiandae ipsa doloremque
+            sit cumque sapiente.
+          </p>
+        </div>
+
+        <div class="container mx-auto mt-3 border p-10">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+            assumenda quam mollitia ex sapiente molestiae, rem sed debitis
+            commodi tenetur omnis distinctio cumque veritatis hic excepturi quia
+            at nesciunt, laudantium aut harum, pariatur quibusdam earum ad
+            culpa! Nulla iusto ipsam, magnam tempora laboriosam laborum
+            voluptatum, a, libero porro optio eum reprehenderit alias!
+            Necessitatibus deleniti aliquid doloremque, provident error incidunt
+            asperiores at, eum facere architecto libero expedita quibusdam
+            consectetur nostrum, dolores est tenetur ab. Veritatis totam
+            quibusdam sequi eligendi ipsum cupiditate, laboriosam quo iusto
+            mollitia excepturi sunt magni necessitatibus libero esse,
+            voluptatibus hic illum! Debitis, ut ullam perferendis in aperiam
+            totam!
+          </p>
+        </div>
+        <div
+          class="container mt-10 lg:mt-20 lg:mb-14 border shadow-md mx-auto p-10 space-y-4 columns-3"
+        >
+          <img class="" src="/assets/img/goku.jpg" alt="" width="400" />
+          <img class="" src="/assets/img/goku.jpg" alt="" width="400" />
+          <img class="" src="/assets/img/goku.jpg" alt="" width="400" />
+          <img class="" src="/assets/img/goku.jpg" alt="" width="400" />
+          <img class="" src="/assets/img/goku.jpg" alt="" width="400" />
+          <img class="" src="/assets/img/goku.jpg" alt="" width="400" />
+          <img class="" src="/assets/img/goku.jpg" alt="" width="400" />
+        </div>
+
+        <div
+          class="container p-5 mx-auto max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-full lg:flex lg:p-0"
+        >
+          <div class="lg:flex-1 lg:p-12">
+            <h1 class="font-bold text-3xl md:text-4xl lg:text-6xl m-2">
+              Son Goku
+            </h1>
+            <img class="p-2 lg:hidden" src="/assets/img/goku.jpg" alt="" />
+            <h2 class="font-bold text-xl md:text-2xl lg:text-4xl p-2">
+              Kakaroto
+            </h2>
+            <p class="p-3 md:text-base">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              impedit suscipit adipisci. Voluptas maiores laudantium sequi
+              provident sit eligendi corrupti vel ullam hic soluta ratione
+              doloribus enim repudiandae officia harum aperiam, quisquam odio
+              iste illo, architecto ipsum laboriosam. Ipsam exercitationem quis
+              explicabo porro, quo reiciendis suscipit similique molestias,
+              vitae, eum quisquam repudiandae. Deleniti quasi qui illo ex
+              tempora expedita modi atque et
+            </p>
+            <div>
+              <a
+                href="#"
+                class="bg-sky-500 py-1 px-4 rounded-lg hover:bg-sky-800 text-white md:px-5 md:py-2"
+                >Details</a
+              >
+            </div>
+          </div>
+          <div class="hidden lg:flex w-1/2">
+            <img
+              src="/assets/img/goku.jpg"
+              alt=""
+              class="rounded-r-full shadow-xl"
+            />
+          </div>
+        </div>
+
+        <h1 class="text-2xl font-semibold text-center mt-20">My Gallery</h1>
+
+        <div
+          class="container mt-24 mx-auto px-6 flex flex-wrap space-y-5 sm:space-y-0 sm:gap-4 sm:justify-evenly"
+        >
+          <div
+            class="shadow-lg rounded-lg border w-64 overflow-hidden md:w-64 lg:w-64 mx-auto"
+          >
+            <img src="/assets/img/goku.jpg" alt="goku" class="w-full" />
+            <h3 class="text-xl font-semibold px-2">Image Title</h3>
+            <p class="text-slate-500 text-sm px-2 pb-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+              iusto et ipsum laudantium
+            </p>
+          </div>
+          <div
+            class="shadow-lg rounded-lg border w-64 overflow-hidden md:w-64 lg:w-64 mx-auto"
+          >
+            <img src="/assets/img/goku.jpg" alt="goku" class="w-full" />
+            <h3 class="text-xl font-semibold px-2">Image Title</h3>
+            <p class="text-slate-500 text-sm px-2 pb-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+              iusto et ipsum laudantium
+            </p>
+          </div>
+          <div
+            class="shadow-lg rounded-lg border w-64 overflow-hidden md:w-64 lg:w-64 mx-auto"
+          >
+            <img src="/assets/img/goku.jpg" alt="goku" class="w-full" />
+            <h3 class="text-xl font-semibold px-2">Image Title</h3>
+            <p class="text-slate-500 text-sm px-2 pb-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+              iusto et ipsum laudantium
+            </p>
+          </div>
+          <div
+            class="shadow-lg rounded-lg border w-64 overflow-hidden md:w-64 lg:w-64 mx-auto"
+          >
+            <img src="/assets/img/goku.jpg" alt="goku" class="w-full" />
+            <h3 class="text-xl font-semibold px-2">Image Title</h3>
+            <p class="text-slate-500 text-sm px-2 pb-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+              iusto et ipsum laudantium
+            </p>
+          </div>
+          <div
+            class="shadow-lg rounded-lg border w-64 overflow-hidden md:w-64 lg:w-64 mx-auto"
+          >
+            <img src="/assets/img/goku.jpg" alt="goku" class="w-full" />
+            <h3 class="text-xl font-semibold px-2">Image Title</h3>
+            <p class="text-slate-500 text-sm px-2 pb-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam
+              iusto et ipsum laudantium
+            </p>
+          </div>
+        </div>
+        <div class="mt-20 p-2 grid grid-cols-2 gap-2 md:grid-cols-4 md:p-4">
+          <h1
+            class="text-3xl font-semibold md:col-start-4 md:row-start-2 md:self-center"
+          >
+            Erifsen
+          </h1>
+          <p class="text-lg md:col-start-2 md:row-start-2 md:self-end">
+            erifsen@gmail.com
+          </p>
+          <div
+            class="bg-blue-500 aspect-[4/3] cursor-pointer md:aspect-[3/4] rounded-lg xl:aspect-[4/3] flex overflow-hidden group hover:scale-90 duration-500"
+          >
+            <img
+              src="/assets/img/goku.jpg"
+              alt=""
+              class="object-cover group-hover:scale-150 group-hover:rotate-12 transition duration-500"
+            />
+          </div>
+          <div
+            class="bg-blue-500 aspect-[4/3] cursor-pointer md:aspect-[3/4] rounded-lg xl:aspect-[4/3] flex overflow-hidden group hover:scale-90 duration-500 md:col-start-3"
+          >
+            <img
+              src="/assets/img/goku.jpg"
+              alt=""
+              class="object-cover group-hover:scale-150 group-hover:rotate-12 transition duration-500"
+            />
+          </div>
+          <div
+            class="bg-blue-500 aspect-[4/3] cursor-pointer md:aspect-[3/4] rounded-lg xl:aspect-[4/3] flex overflow-hidden group hover:scale-90 duration-500"
+          >
+            <img
+              src="/assets/img/goku.jpg"
+              alt=""
+              class="object-cover group-hover:scale-150 group-hover:rotate-12 transition duration-500"
+            />
+          </div>
+          <div
+            class="bg-blue-500 aspect-[4/3] cursor-pointer md:aspect-[3/4] rounded-lg xl:aspect-[4/3] flex overflow-hidden group hover:scale-90 duration-500"
+          >
+            <img
+              src="/assets/img/goku.jpg"
+              alt=""
+              class="object-cover group-hover:scale-150 group-hover:rotate-12 transition duration-500"
+            />
+          </div>
+          <div
+            class="bg-blue-500 aspect-[4/3] cursor-pointer md:aspect-[3/4] rounded-lg xl:aspect-[4/3] flex overflow-hidden group hover:scale-90 duration-500"
+          >
+            <img
+              src="/assets/img/goku.jpg"
+              alt=""
+              class="object-cover group-hover:scale-150 group-hover:rotate-12 transition duration-500"
+            />
+          </div>
+          <div
+            class="bg-blue-500 aspect-[4/3] cursor-pointer md:aspect-[3/4] rounded-lg xl:aspect-[4/3] flex overflow-hidden group hover:scale-90 duration-500 md:col-start-2"
+          >
+            <img
+              src="/assets/img/goku.jpg"
+              alt=""
+              class="object-cover group-hover:scale-150 group-hover:rotate-12 transition duration-500"
+            />
+          </div>
+          <div
+            class="bg-blue-500 aspect-[4/3] cursor-pointer md:aspect-[3/4] rounded-lg xl:aspect-[4/3] flex overflow-hidden group hover:scale-90 duration-500 md:col-start-4"
+          >
+            <img
+              src="/assets/img/goku.jpg"
+              alt=""
+              class="object-cover group-hover:scale-150 group-hover:rotate-12 transition duration-500"
+            />
+          </div>
+          <div
+            class="bg-blue-500 aspect-[4/3] cursor-pointer md:aspect-[3/4] rounded-lg xl:aspect-[4/3] flex overflow-hidden group hover:scale-90 duration-500"
+          >
+            <img
+              src="/assets/img/goku.jpg"
+              alt=""
+              class="object-cover group-hover:scale-150 group-hover:rotate-12 transition duration-500"
+            />
+          </div>
+          <div
+            class="bg-blue-500 aspect-[4/3] cursor-pointer md:aspect-[3/4] rounded-lg xl:aspect-[4/3] flex overflow-hidden group hover:scale-90 duration-500 md:col-start-3"
+          >
+            <img
+              src="/assets/img/goku.jpg"
+              alt=""
+              class="object-cover group-hover:scale-150 group-hover:rotate-12 transition duration-500"
+            />
+          </div>
+          <div
+            class="bg-blue-500 aspect-[4/3] cursor-pointer md:aspect-[3/4] rounded-lg xl:aspect-[4/3] flex overflow-hidden group hover:scale-90 duration-500 md:col-start-3"
+          >
+            <img
+              src="/assets/img/goku.jpg"
+              alt=""
+              class="object-cover group-hover:scale-150 group-hover:rotate-12 transition duration-500"
+            />
+          </div>
+        </div>
+        <h1>Hello World</h1>
+      </main>
+      <footer
+        class="relative mx-auto h-14 bg-fuchsia-300 shadow-sm flex items-center justify-center dark:bg-slate-500"
+      >
+        <h1>Copyright Erifsen</h1>
+      </footer>
+    </div>
+    <script>
+      const checkbox = document.querySelector("#toggle");
+      const html = document.querySelector("html");
+
+      checkbox.addEventListener("click", function () {
+        checkbox.checked
+          ? html.classList.add("dark")
+          : html.classList.remove("dark");
+      });
+    </script>
+  </body>
+</html>
